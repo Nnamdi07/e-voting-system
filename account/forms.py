@@ -16,7 +16,7 @@ class CustomUserForm(FormSettings):
     password = forms.CharField(widget=forms.PasswordInput)
 
     widget = {
-        'password': forms.PasswordInput(),
+        'password' : forms.PasswordInput(),
     }
 
     def __init__(self, *args, **kwargs):
